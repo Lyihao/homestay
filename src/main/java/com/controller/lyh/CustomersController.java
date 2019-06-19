@@ -1,4 +1,4 @@
-package com.lyh.controller;
+package com.controller.lyh;
 
 
 import java.util.List;
@@ -9,8 +9,10 @@ import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
 
-import com.aaa.entity.customers;
-import com.lyh.service.CustomersService;
+import com.entity.lyh.customers;
+import com.service.lyh.CustomersService;
+
+
 
 @Controller
 public class CustomersController {

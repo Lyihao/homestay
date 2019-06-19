@@ -1,4 +1,4 @@
-package com.aaa.entity;
+package com.entity.lyh;
 
 public class rent {
 	private int rentid;

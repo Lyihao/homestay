@@ -1,4 +1,4 @@
-package com.lyh.controller;
+package com.controller.lyh;
 
 
 import java.util.List;
@@ -9,8 +9,9 @@ import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
 
-import com.aaa.entity.rent;
-import com.lyh.service.rentService;
+import com.entity.lyh.rent;
+import com.service.lyh.rentService;
+
 
 @Controller
 public class rentController {

@@ -1,4 +1,4 @@
-package com.aaa.entity;
+package com.entity.lyh;
 
 import java.util.Date;
 

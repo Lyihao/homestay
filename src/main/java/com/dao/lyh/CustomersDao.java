@@ -1,4 +1,4 @@
-package com.lyh.dao;
+package com.dao.lyh;
 
 import java.util.List;
 
@@ -7,7 +7,9 @@ import org.apache.ibatis.annotations.Mapper;
 
 import org.apache.ibatis.annotations.Select;
 
-import com.aaa.entity.customers;
+import com.entity.lyh.customers;
+
+
 
 @Mapper
 public interface CustomersDao {

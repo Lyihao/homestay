@@ -1,4 +1,4 @@
-package com.lyh.service;
+package com.service.lyh;
 
 import java.util.List;
 
@@ -6,9 +6,9 @@ import javax.annotation.Resource;
 
 import org.springframework.stereotype.Service;
 
-import com.lyh.dao.CustomersDao;
+import com.dao.lyh.CustomersDao;
+import com.entity.lyh.customers;
 
-import com.aaa.entity.customers;
 
 @Service
 public class CustomersService {
